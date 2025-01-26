@@ -20,5 +20,5 @@ if disease:
     st.write(f"You selected: **{disease}**")
     st.write("Click the button below to visit the official webpage:")
     if st.button("Go to webpage"):
-        st.write(f"[Click here to visit the {disease} page]({disease_urls[disease]})")
+        #st.write(f"[Click here to visit the {disease} page]({disease_urls[disease]})")
         st.markdown(f'<a href="{disease_urls[disease]}" target="_blank">Click here to visit the {disease} page</a>', unsafe_allow_html=True)
